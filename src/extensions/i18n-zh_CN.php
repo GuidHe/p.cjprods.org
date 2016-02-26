@@ -18498,7 +18498,7 @@ final class I18n_zh_CN extends PhutilTranslation {
 
             // src/applications/project/controller/PhabricatorProjectMembersViewController.php:109
             // src/view/form/control/AphrontFormPolicyControl.php:80
-            'Joinable By' => null,
+            'Joinable By' => '谁能加入',
 
             // src/applications/project/query/PhabricatorProjectSearchEngine.php:91
             'Joined' => null,
