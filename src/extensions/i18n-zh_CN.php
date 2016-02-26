@@ -3510,7 +3510,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             '(Deprecated)' => null,
 
             // src/applications/paste/editor/PhabricatorPasteEditEngine.php:63
-            '(Detect From Filename in Title)' => null,
+            '(Detect From Filename in Title)' => '（根据标题自动检测）',
 
             // src/applications/phortune/controller/PhortuneSubscriptionEditController.php:84
             '(Disable Autopay)' => null,
@@ -4135,7 +4135,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'A session is visible only to its owner.' => null,
 
             // src/applications/ponder/query/PonderQuestionSearchEngine.php:196
-            'A simple questions and answers application for your teams.' => null,
+            'A simple questions and answers application for your teams.' => '简易的团队问答平台。',
 
             // src/aphront/httpparametertype/AphrontPHIDHTTPParameterType.php:16
             'A single object PHID.' => null,
@@ -4721,7 +4721,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Active Panels' => null,
 
             // src/applications/paste/query/PhabricatorPasteSearchEngine.php:94
-            'Active Pastes' => null,
+            'Active Pastes' => '当前贴纸',
 
             // src/applications/harbormaster/query/HarbormasterBuildPlanSearchEngine.php:48
             'Active Plans' => null,
@@ -5240,11 +5240,11 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/people/customfield/PhabricatorUserRolesField.php:29
             // src/applications/uiexample/examples/PHUITimelineExample.php:31
             // src/applications/uiexample/examples/PHUIBadgeExample.php:136
-            'Administrator' => null,
+            'Administrator' => '管理员',
 
             // src/applications/policy/query/PhabricatorPolicyQuery.php:176
             // src/applications/people/query/PhabricatorPeopleSearchEngine.php:30
-            'Administrators' => null,
+            'Administrators' => '管理员',
 
             // src/applications/people/controller/PhabricatorPeopleCreateController.php:31
             'Administrators are limited in their ability to access or edit these accounts after account creation.' => null,
@@ -5541,7 +5541,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'All Panels' => null,
 
             // src/applications/paste/query/PhabricatorPasteSearchEngine.php:95
-            'All Pastes' => null,
+            'All Pastes' => '所有贴纸',
 
             // src/applications/harbormaster/query/HarbormasterBuildPlanSearchEngine.php:49
             'All Plans' => null,
@@ -5626,7 +5626,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'All URLs' => null,
 
             // src/applications/policy/query/PhabricatorPolicyQuery.php:174
-            'All Users' => null,
+            'All Users' => '所有人',
 
             // src/applications/drydock/worker/DrydockLeaseUpdateWorker.php:226
             'All blueprints failed to allocate a suitable new resource when trying to allocate lease "%s".' => null,
@@ -6660,7 +6660,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/maniphest/storage/ManiphestTransaction.php:306
             // src/applications/maniphest/query/ManiphestTaskSearchEngine.php:236
             // src/applications/maniphest/query/ManiphestTaskSearchEngine.php:287
-            'Assigned' => null,
+            'Assigned' => '指派给我的',
 
             // src/applications/maniphest/herald/ManiphestTaskAssignHeraldAction.php:56
             'Assigned Task' => null,
@@ -6672,7 +6672,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/maniphest/engineextension/ManiphestHovercardEngineExtension.php:38
             // src/applications/maniphest/query/ManiphestTaskSearchEngine.php:49
             // src/applications/maniphest/editor/ManiphestEditEngine.php:119
-            'Assigned To' => null,
+            'Assigned To' => '指派给',
 
             // src/applications/maniphest/herald/ManiphestTaskAssignHeraldAction.php:68
             'Assigned task to: %s.' => null,
@@ -7008,7 +7008,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/slowvote/query/PhabricatorSlowvoteSearchEngine.php:76
             // src/applications/differential/query/DifferentialRevisionSearchEngine.php:222
             // src/applications/maniphest/query/ManiphestTaskSearchEngine.php:237
-            'Authored' => '参与的',
+            'Authored' => '我署名的',
 
             // src/applications/audit/query/PhabricatorCommitSearchEngine.php:90
             'Authored Commits' => null,
@@ -9972,7 +9972,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/transactions/editengine/PhabricatorEditEngine.php:1149
             // src/applications/harbormaster/controller/HarbormasterBuildViewController.php:203
             // src/applications/config/controller/PhabricatorConfigController.php:14
-            'Configuration' => null,
+            'Configuration' => '配置',
 
             // src/applications/config/option/PhabricatorSecurityConfigOptions.php:24
             // src/applications/config/check/PhabricatorSecuritySetupCheck.php:75
@@ -10864,7 +10864,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Create New Panel' => null,
 
             // src/applications/paste/editor/PhabricatorPasteEditEngine.php:34
-            'Create New Paste' => null,
+            'Create New Paste' => '创建新贴纸',
 
             // src/applications/phriction/controller/PhrictionEditController.php:188
             'Create New Phriction Document' => null,
@@ -10911,7 +10911,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Create Panel' => null,
 
             // src/applications/paste/editor/PhabricatorPasteEditEngine.php:46
-            'Create Paste' => null,
+            'Create Paste' => '创建贴纸',
 
             // src/applications/phortune/controller/PhortuneAccountEditController.php:83
             'Create Payment Account' => null,
@@ -11075,7 +11075,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Create a Panel' => null,
 
             // src/applications/paste/query/PhabricatorPasteSearchEngine.php:209
-            'Create a Paste' => null,
+            'Create a Paste' => '创建贴纸',
 
             // src/applications/phriction/conduit/PhrictionCreateConduitAPIMethod.php:10
             'Create a Phriction document.' => null,
@@ -14246,7 +14246,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/phame/controller/blog/PhameBlogManageController.php:110
             // src/applications/nuance/controller/NuanceSourceViewController.php:128
             // src/view/form/control/AphrontFormPolicyControl.php:79
-            'Editable By' => null,
+            'Editable By' => '谁能编辑',
 
             // src/applications/phriction/storage/PhrictionTransaction.php:130
             // src/applications/maniphest/storage/ManiphestTransaction.php:298
@@ -14394,7 +14394,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Email Format' => null,
 
             // src/applications/base/PhabricatorApplication.php:196
-            'Email Help' => null,
+            'Email Help' => '邮件控制命令帮助',
 
             // src/applications/people/controller/PhabricatorPeopleController.php:36
             'Email Invitations' => null,
@@ -15366,7 +15366,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Exploration Only' => null,
 
             // src/applications/meta/application/PhabricatorApplicationsApplication.php:24
-            'Explore More Applications' => null,
+            'Explore More Applications' => '探索更多程序',
 
             // src/applications/maniphest/controller/ManiphestExportController.php:73
             'Export Tasks to Excel' => null,
@@ -15693,7 +15693,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/search/profilepanel/PhabricatorProfilePanelIconSet.php:27
             // src/applications/feed/application/PhabricatorFeedApplication.php:10
             // src/applications/feed/config/PhabricatorFeedConfigOptions.php:7
-            'Feed' => null,
+            'Feed' => '提要',
 
             // src/applications/feed/query/PhabricatorFeedSearchEngine.php:7
             'Feed Stories' => null,
@@ -15856,7 +15856,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/files/lipsum/PhabricatorFileTestDataGenerator.php:7
             // src/applications/files/editor/PhabricatorFileEditor.php:11
             // src/applications/diffusion/controller/DiffusionLintController.php:129
-            'Files' => null,
+            'Files' => '文件',
 
             // src/applications/files/garbagecollector/PhabricatorFileTemporaryGarbageCollector.php:9
             'Files (TTL)' => null,
@@ -18676,7 +18676,7 @@ final class I18n_zh_CN extends PhutilTranslation {
 
             // src/applications/paste/editor/PhabricatorPasteEditEngine.php:77
             // src/applications/diffusion/controller/DiffusionSymbolController.php:121
-            'Language' => null,
+            'Language' => '编程语言',
 
             // src/applications/paste/storage/PhabricatorPaste.php:267
             'Language to use for syntax highlighting.' => null,
@@ -19987,7 +19987,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/search/profilepanel/PhabricatorProfilePanelIconSet.php:22
             // src/applications/maniphest/application/PhabricatorManiphestApplication.php:6
             // src/applications/maniphest/config/PhabricatorManiphestConfigOptions.php:7
-            'Maniphest' => '抢工',
+            'Maniphest' => '清单',
 
             // src/applications/maniphest/bulk/ManiphestTaskEditBulkJobType.php:11
             'Maniphest Bulk Edit' => null,
@@ -21593,7 +21593,7 @@ final class I18n_zh_CN extends PhutilTranslation {
 
             // src/applications/legalpad/storage/LegalpadDocument.php:138
             // src/applications/policy/query/PhabricatorPolicyQuery.php:178
-            'No One' => null,
+            'No One' => '没人',
 
             // src/applications/policy/__tests__/PhabricatorPolicyTestCase.php:84
             'No One Policy' => null,
@@ -22051,7 +22051,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'No panels found.' => null,
 
             // src/applications/paste/query/PhabricatorPasteSearchEngine.php:201
-            'No pastes found.' => null,
+            'No pastes found.' => '没有贴纸。',
 
             // src/applications/phortune/controller/PhortuneAccountViewController.php:130
             'No payment methods associated with this account.' => null,
@@ -24110,22 +24110,22 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/paste/application/PhabricatorPasteApplication.php:6
             // src/applications/paste/phid/PhabricatorPastePastePHIDType.php:8
             // src/applications/paste/config/PhabricatorPasteConfigOptions.php:7
-            'Paste' => null,
+            'Paste' => '贴纸',
 
             // src/applications/paste/engineextension/PhabricatorPasteContentSearchEngineAttachment.php:7
-            'Paste Content' => null,
+            'Paste Content' => '贴纸内容',
 
             // src/applications/paste/conduit/PasteCreateConduitAPIMethod.php:27
-            'Paste may not be empty.' => null,
+            'Paste may not be empty.' => '贴纸不能为空',
 
             // src/applications/paste/editor/PhabricatorPasteEditor.php:220
-            'Paste title, language or text changes.' => null,
+            'Paste title, language or text changes.' => '贴纸标题、编程语言或正文有所变动。',
 
             // src/applications/paste/query/PhabricatorPasteSearchEngine.php:7
             // src/applications/paste/lipsum/PhabricatorPasteTestDataGenerator.php:7
             // src/applications/paste/editor/PhabricatorPasteEditEngine.php:9
             // src/applications/paste/editor/PhabricatorPasteEditor.php:13
-            'Pastes' => null,
+            'Pastes' => '贴纸',
 
             // src/infrastructure/storage/management/workflow/PhabricatorStorageManagementWorkflow.php:828
             'Patch \'%s\' has already been applied. Are you sure you want to apply it again? This may put your storage in a state that the upgrade scripts can not automatically manage.' => null,
@@ -27306,7 +27306,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/maniphest/controller/ManiphestController.php:21
             // src/applications/maniphest/controller/ManiphestController.php:22
             // src/applications/maniphest/controller/ManiphestReportController.php:51
-            'Reports' => null,
+            'Reports' => '报告',
 
             // src/applications/owners/query/PhabricatorOwnersPackageSearchEngine.php:33
             // src/applications/audit/query/PhabricatorCommitSearchEngine.php:68
@@ -28239,7 +28239,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Review Mocks and Design' => null,
 
             // src/applications/feed/application/PhabricatorFeedApplication.php:14
-            'Review Recent Activity' => null,
+            'Review Recent Activity' => '检阅近期活动',
 
             // src/applications/differential/view/DifferentialReviewersView.php:49
             'Review Requested' => null,
@@ -31197,7 +31197,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Store a plaintext password.' => null,
 
             // src/applications/files/application/PhabricatorFilesApplication.php:14
-            'Store and Share Files' => null,
+            'Store and Share Files' => '储存、分享文件',
 
             // src/applications/passphrase/credentialtype/PassphraseSSHPrivateKeyFileCredentialType.php:17
             'Store the path on disk to an SSH private key.' => null,
@@ -31206,7 +31206,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Store the plaintext of an SSH private key.' => null,
 
             // src/applications/paste/query/PhabricatorPasteSearchEngine.php:219
-            'Store, share, and embed snippets of code.' => null,
+            'Store, share, and embed snippets of code.' => '储存、分享、嵌入代码片段。',
 
             // src/applications/harbormaster/artifact/HarbormasterURIArtifact.php:12
             'Stores a URI.' => null,
@@ -31425,7 +31425,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/uiexample/examples/PHUIHovercardUIExample.php:49
             // src/applications/uiexample/examples/PHUIListExample.php:41
             // src/applications/uiexample/examples/PHUIDocumentExample.php:46
-            'Subscribe' => null,
+            'Subscribe' => '订阅',
 
             // src/applications/maniphest/query/ManiphestTaskSearchEngine.php:238
             'Subscribed' => null,
@@ -31445,7 +31445,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/pholio/controller/PholioMockEditController.php:323
             // src/applications/differential/query/DifferentialRevisionSearchEngine.php:170
             // src/applications/differential/customfield/DifferentialSubscribersField.php:15
-            'Subscribers' => null,
+            'Subscribers' => '订阅者',
 
             // src/applications/subscriptions/policyrule/PhabricatorSubscriptionsSubscribersPolicyRule.php:18
             'Subscribers can take this action.' => null,
@@ -31697,7 +31697,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/diffusion/controller/DiffusionBrowseController.php:1599
             // src/applications/diffusion/view/DiffusionTagListView.php:111
             // src/applications/project/icon/PhabricatorProjectIconSet.php:25
-            'Tag' => null,
+            'Tag' => '标签',
 
             // src/applications/diffusion/controller/DiffusionBrowseController.php:1614
             'Tag Content' => null,
@@ -31718,7 +31718,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/project/engineextension/PhabricatorProjectsEditEngineExtension.php:47
             // src/applications/project/engineextension/PhabricatorProjectsSearchEngineExtension.php:45
             // src/applications/uiexample/examples/PHUITagExample.php:6
-            'Tags' => null,
+            'Tags' => '标签',
 
             // src/applications/diffusion/controller/DiffusionController.php:170
             'Tags for %s' => null,
@@ -32002,7 +32002,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/celerity/CelerityResourceMapGenerator.php:95
             // src/applications/paste/editor/PhabricatorPasteEditEngine.php:92
             // src/applications/dashboard/paneltype/PhabricatorDashboardTextPanelType.php:23
-            'Text' => null,
+            'Text' => '正文',
 
             // src/applications/diffusion/controller/DiffusionRepositoryEditEncodingController.php:60
             // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:189
@@ -38276,7 +38276,7 @@ final class I18n_zh_CN extends PhutilTranslation {
 
             // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:399
             // src/view/form/control/AphrontFormPolicyControl.php:78
-            'Visible To' => null,
+            'Visible To' => '谁能看到',
 
             // src/applications/phurl/controller/PhabricatorPhurlURLViewController.php:112
             'Visit URL' => null,
