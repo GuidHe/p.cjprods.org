@@ -4418,7 +4418,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Account Balance' => null,
 
             // src/applications/auth/controller/PhabricatorDisabledUserController.php:20
-            'Account Disabled' => null,
+            'Account Disabled' => '账户已禁用',
 
             // src/applications/config/option/PhabricatorSMSConfigOptions.php:47
             'Account ID on Twilio service.' => null,
@@ -4907,7 +4907,7 @@ final class I18n_zh_CN extends PhutilTranslation {
 
             // src/applications/settings/panel/PhabricatorEmailAddressesSettingsPanel.php:147
             // src/applications/metamta/applicationpanel/PhabricatorMetaMTAApplicationEmailPanel.php:92
-            'Add New Address' => null,
+            'Add New Address' => '添加新的邮箱地址',
 
             // src/applications/search/engine/PhabricatorProfilePanelEngine.php:638
             'Add New Menu Item...' => null,
@@ -6064,7 +6064,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'An authorization inherits the policies of the blueprint it authorizes access to.' => null,
 
             // src/applications/auth/controller/PhabricatorEmailLoginController.php:117
-            'An email has been sent with a link you can use to login.' => null,
+            'An email has been sent with a link you can use to login.' => '一封带有登录链接的电子邮件已发送到您的邮箱。',
 
             // src/applications/calendar/editor/PhabricatorCalendarEventEditor.php:406
             'An event\'s name, status, invite list, icon, and description changes.' => null,
@@ -6147,11 +6147,11 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Another product already uses this name.' => null,
 
             // src/applications/auth/controller/PhabricatorAuthRegisterController.php:391
-            'Another user already has that email.' => null,
+            'Another user already has that email.' => '已有用户使用该邮箱地址注册',
 
             // src/applications/auth/controller/PhabricatorAuthRegisterController.php:385
             // src/applications/people/controller/PhabricatorPeopleRenameController.php:52
-            'Another user already has that username.' => null,
+            'Another user already has that username.' => '用户名已被注册',
 
             // src/applications/settings/panel/PhabricatorEmailAddressesSettingsPanel.php:243
             'Another user already has this email.' => null,
@@ -6877,7 +6877,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Audits' => null,
 
             // src/applications/auth/application/PhabricatorAuthApplication.php:22
-            'Auth' => '验证',
+            'Auth' => '身份验证',
 
             // src/applications/config/check/PhabricatorAuthSetupCheck.php:37
             'Auth Application' => null,
@@ -9029,7 +9029,7 @@ final class I18n_zh_CN extends PhutilTranslation {
 
             // src/applications/auth/controller/PhabricatorEmailLoginController.php:114
             // src/applications/auth/controller/PhabricatorMustVerifyEmailController.php:51
-            'Check Your Email' => null,
+            'Check Your Email' => '请查看您的邮箱',
 
             // src/applications/flag/constants/PhabricatorFlagColor.php:23
             // src/applications/project/icon/PhabricatorProjectIconSet.php:385
@@ -9875,7 +9875,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Conditions were met for %s' => null,
 
             // src/applications/auth/controller/PhabricatorEmailLoginController.php:94
-            'Condolences on forgetting your password. You can use this link to reset it:\n\n  %s\n\nAfter you set a new password, consider writing it down on a sticky note and attaching it to your monitor so you don\'t forget again! Choosing a very short, easy-to-remember password like "cat" or "1234" might also help.\n\nBest Wishes,\nPhabricator\n' => null,
+            'Condolences on forgetting your password. You can use this link to reset it:\n\n  %s\n\nAfter you set a new password, consider writing it down on a sticky note and attaching it to your monitor so you don\'t forget again! Choosing a very short, easy-to-remember password like "cat" or "1234" might also help.\n\nBest Wishes,\nPhabricator\n' => '对您去世的密码，请节哀顺变。您可以使用以下链接再设一个新的：\n\n  %s\n\n祝好，\nPhabricator\n',
 
             // src/applications/slowvote/application/PhabricatorSlowvoteApplication.php:18
             'Conduct Polls' => null,
@@ -13245,7 +13245,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/differential/controller/DifferentialRevisionLandController.php:67
             // src/infrastructure/diff/view/PHUIDiffInlineCommentDetailView.php:337
             // src/infrastructure/diff/view/PHUIDiffInlineCommentDetailView.php:342
-            'Done' => null,
+            'Done' => '完成',
 
             // src/applications/celerity/management/CelerityManagementMapWorkflow.php:27
             // src/applications/fact/management/PhabricatorFactManagementDestroyWorkflow.php:40
@@ -13484,7 +13484,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/maniphest/config/PhabricatorManiphestConfigOptions.php:125
             // src/applications/maniphest/config/PhabricatorManiphestConfigOptions.php:233
             // src/applications/maniphest/constants/__tests__/ManiphestTaskStatusTestCase.php:46
-            'Duplicate' => null,
+            'Duplicate' => '重复',
 
             // src/applications/metamta/constants/MetaMTAReceivedMailStatus.php:23
             'Duplicate Message' => null,
@@ -14414,7 +14414,7 @@ final class I18n_zh_CN extends PhutilTranslation {
 
             // src/applications/auth/controller/PhabricatorEmailLoginController.php:115
             // src/applications/auth/controller/PhabricatorMustVerifyEmailController.php:32
-            'Email Sent' => null,
+            'Email Sent' => '邮件已发送',
 
             // src/applications/people/storage/PhabricatorExternalAccount.php:122
             'Email User' => null,
@@ -14459,7 +14459,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/settings/panel/PhabricatorEmailAddressesSettingsPanel.php:186
             // src/applications/auth/controller/PhabricatorAuthRegisterController.php:252
             // src/applications/people/controller/PhabricatorPeopleNewController.php:46
-            'Email is required.' => null,
+            'Email is required.' => '必须填写电子邮件地址',
 
             // src/applications/conpherence/constants/ConpherenceSettings.php:13
             'Email me every update.' => null,
@@ -16087,13 +16087,13 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Forcefully releasing a lease may interfere with the operation of the lease holder and trigger destruction of the underlying resource. It can not be undone.' => null,
 
             // src/applications/auth/controller/PhabricatorEmailLoginController.php:161
-            'Forgot Password' => null,
+            'Forgot Password' => '忘记密码',
 
             // src/applications/auth/controller/PhabricatorEmailLoginController.php:150
-            'Forgot Password / Email Login' => null,
+            'Forgot Password / Email Login' => '忘记密码 / 电子邮件登入',
 
             // src/applications/auth/provider/PhabricatorPasswordAuthProvider.php:192
-            'Forgot your password?' => null,
+            'Forgot your password?' => '忘记密码',
 
             // src/applications/paste/controller/PhabricatorPasteViewController.php:191
             'Forked From' => null,
@@ -17022,7 +17022,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/fact/controller/PhabricatorFactHomeController.php:60
             // src/applications/home/application/PhabricatorHomeApplication.php:12
             // src/view/page/menu/PhabricatorMainMenuView.php:340
-            'Home' => null,
+            'Home' => '主页',
 
             // src/applications/settings/panel/PhabricatorHomePreferencesSettingsPanel.php:11
             'Home Page' => '主页',
@@ -19489,7 +19489,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Login' => '登入',
 
             // src/applications/auth/controller/PhabricatorAuthOneTimeLoginController.php:198
-            'Login (%s)' => null,
+            'Login (%s)' => '登入 (%s)',
 
             // src/applications/auth/controller/PhabricatorAuthLoginController.php:230
             'Login Failed' => null,
@@ -19837,7 +19837,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Make Phabricator even cooler!' => null,
 
             // src/applications/settings/panel/PhabricatorEmailAddressesSettingsPanel.php:79
-            'Make Primary' => null,
+            'Make Primary' => '设为主邮箱',
 
             // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:786
             'Make a choice about repository activation.' => null,
@@ -19932,7 +19932,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Manage Bulk Jobs' => null,
 
             // src/applications/diffusion/controller/DiffusionRepositoryController.php:732
-            'Manage Credentials' => null,
+            'Manage Credentials' => '管理访问凭证',
 
             // src/applications/dashboard/controller/PhabricatorDashboardViewController.php:56
             // src/applications/dashboard/controller/PhabricatorDashboardViewController.php:74
@@ -20438,7 +20438,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Minimum allowed amount is %s.' => null,
 
             // src/applications/auth/controller/PhabricatorAuthRegisterController.php:455
-            'Minimum length of %d characters.' => null,
+            'Minimum length of %d characters.' => '至少 %d 个字符。',
 
             // src/applications/search/engine/PhabricatorApplicationSearchEngine.php:1306
             'Minimum page size for API searches is 1, but this call specified %s.' => null,
@@ -23089,7 +23089,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/project/controller/PhabricatorProjectColumnHideController.php:52
             // src/infrastructure/util/password/PhabricatorIteratedMD5PasswordHasher.php:32
             // src/view/AphrontDialogView.php:77
-            'Okay' => null,
+            'Okay' => '好呗',
 
             // src/applications/diffusion/view/DiffusionPushLogListView.php:105
             'Old' => null,
@@ -24096,7 +24096,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Password is required.' => null,
 
             // src/applications/auth/controller/PhabricatorAuthRegisterController.php:233
-            'Password is too short (must be at least %d characters long).' => null,
+            'Password is too short (must be at least %d characters long).' => '密码太短（至少 %d 个字符）',
 
             // src/applications/auth/provider/PhabricatorPasswordAuthProvider.php:164
             'Password providers can\'t be linked.' => null,
@@ -24438,7 +24438,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Phabricator' => null,
 
             // src/applications/people/controller/PhabricatorPeopleApproveController.php:33
-            'Phabricator Account "%s" Approved' => null,
+            'Phabricator Account "%s" Approved' => '帐号“%s”已通过审核',
 
             // src/applications/auth/provider/PhabricatorPhabricatorAuthProvider.php:185
             'Phabricator Base URI' => null,
@@ -24473,7 +24473,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Phabricator Mail' => null,
 
             // src/applications/auth/controller/PhabricatorAuthRegisterController.php:498
-            'Phabricator Registration' => null,
+            'Phabricator Registration' => '注册 Phabricator',
 
             // src/applications/config/response/PhabricatorConfigResponse.php:24
             'Phabricator Setup Error' => null,
@@ -24483,7 +24483,7 @@ final class I18n_zh_CN extends PhutilTranslation {
 
             // src/applications/auth/controller/PhabricatorAuthRegisterController.php:421
             // src/applications/auth/controller/PhabricatorAuthRegisterController.php:428
-            'Phabricator Username' => null,
+            'Phabricator Username' => '用户名',
 
             // src/applications/policy/config/PhabricatorPolicyConfigOptions.php:40
             'Phabricator allows you to set the visibility of objects (like repositories and tasks) to \'Public\', which means **anyone on the internet can see them, without needing to log in or have an account**.\n\nThis is intended for open source projects. Many installs will never want to make anything public, so this policy is disabled by default. You can enable it here, which will let you set the policy for objects to \'Public\'.\n\nEnabling this setting will immediately open up some features, like the user directory. Anyone on the internet will be able to access these features.\n\nWith this setting disabled, the \'Public\' policy is not available, and the most open policy is \'All Users\' (which means users must have accounts and be logged in to view things).' => null,
@@ -25178,7 +25178,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Prim Goldenrod' => null,
 
             // src/applications/settings/panel/PhabricatorEmailAddressesSettingsPanel.php:95
-            'Primary' => null,
+            'Primary' => '主邮箱',
 
             // src/applications/people/editor/PhabricatorUserEditor.php:38
             // src/applications/people/editor/PhabricatorUserEditor.php:654
@@ -25822,7 +25822,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Push __repository__ to mirrors.' => null,
 
             // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:409
-            'Pushable By' => null,
+            'Pushable By' => '谁能上传',
 
             // src/applications/diffusion/controller/DiffusionPushEventViewController.php:76
             'Pushed At' => null,
@@ -26314,11 +26314,11 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/people/controller/PhabricatorPeopleLdapController.php:174
             // src/applications/people/controller/PhabricatorPeopleNewController.php:154
             // src/applications/people/customfield/PhabricatorUserRealNameField.php:13
-            'Real Name' => null,
+            'Real Name' => '真实姓名',
 
             // src/applications/auth/controller/PhabricatorAuthRegisterController.php:268
             // src/applications/people/controller/PhabricatorPeopleNewController.php:68
-            'Real name is required.' => null,
+            'Real name is required.' => '必须填写真实姓名',
 
             // src/applications/notification/application/PhabricatorNotificationsApplication.php:14
             'Real-Time Updates and Alerts' => null,
@@ -26848,17 +26848,17 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Regenerate' => null,
 
             // src/applications/auth/controller/PhabricatorAuthRegisterController.php:496
-            'Register' => null,
+            'Register' => '注册',
 
             // src/applications/auth/provider/PhabricatorAuthProvider.php:415
-            'Register Account' => null,
+            'Register Account' => '注册帐号',
 
             // src/applications/auth/provider/PhabricatorPasswordAuthProvider.php:183
             // src/applications/auth/engine/PhabricatorAuthInviteEngine.php:114
-            'Register New Account' => null,
+            'Register New Account' => '注册新帐号',
 
             // src/applications/auth/controller/PhabricatorAuthRegisterController.php:484
-            'Register Phabricator Account' => null,
+            'Register Phabricator Account' => '注册',
 
             // src/applications/auth/provider/PhabricatorPasswordAuthProvider.php:154
             'Register an Account' => null,
@@ -27066,7 +27066,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/settings/panel/PhabricatorEmailAddressesSettingsPanel.php:125
             // src/applications/settings/panel/PhabricatorMultiFactorSettingsPanel.php:74
             // src/applications/project/view/PhabricatorProjectUserListView.php:101
-            'Remove' => null,
+            'Remove' => '删除',
 
             // src/applications/flag/events/PhabricatorFlagsUIEventListener.php:43
             'Remove %s Flag' => null,
@@ -27829,7 +27829,7 @@ final class I18n_zh_CN extends PhutilTranslation {
 
             // src/applications/auth/controller/PhabricatorEmailLoginController.php:146
             // src/applications/people/storage/PhabricatorUserLog.php:61
-            'Reset Password' => null,
+            'Reset Password' => '重置密码',
 
             // src/applications/almanac/controller/AlmanacPropertyDeleteController.php:27
             // src/applications/almanac/controller/AlmanacPropertyDeleteController.php:31
@@ -28698,7 +28698,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/nuance/controller/NuanceQueueEditController.php:118
             // src/applications/differential/controller/DifferentialRevisionEditController.php:154
             // src/view/form/PHUIPagedFormView.php:257
-            'Save' => null,
+            'Save' => '保存',
 
             // src/applications/search/controller/PhabricatorSearchAttachController.php:225
             'Save %s' => null,
@@ -29196,7 +29196,7 @@ final class I18n_zh_CN extends PhutilTranslation {
 
             // src/applications/conpherence/controller/ConpherenceViewController.php:159
             // src/applications/conpherence/view/ConpherenceDurableColumnView.php:515
-            'Send' => null,
+            'Send' => '发送',
 
             // src/applications/people/controller/PhabricatorPeopleNewController.php:172
             'Send "Welcome to Phabricator" email with login instructions.' => null,
@@ -29217,7 +29217,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/settings/panel/PhabricatorEmailAddressesSettingsPanel.php:351
             // src/applications/auth/controller/PhabricatorEmailLoginController.php:152
             // src/applications/people/controller/PhabricatorPeopleWelcomeController.php:49
-            'Send Email' => null,
+            'Send Email' => '发送邮件',
 
             // src/applications/settings/panel/PhabricatorEmailFormatSettingsPanel.php:118
             'Send HTML Email' => null,
@@ -31028,7 +31028,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/maniphest/editor/ManiphestEditEngine.php:131
             // src/infrastructure/sms/management/PhabricatorSMSManagementListOutboundWorkflow.php:39
             // src/infrastructure/storage/management/workflow/PhabricatorStorageManagementStatusWorkflow.php:31
-            'Status' => null,
+            'Status' => '状态',
 
             // src/applications/maniphest/constants/ManiphestTaskStatus.php:312
             'Status "%s" is marked as default, but it is a closed status. The default status should be an open status.' => null,
@@ -37500,7 +37500,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Use the **OAuth App Notes** field to record details about which account the external application is registered under.' => null,
 
             // src/applications/auth/controller/PhabricatorAuthOneTimeLoginController.php:181
-            'Use the button below to log in as: %s' => null,
+            'Use the button below to log in as: %s' => '点下面的按钮登入 %s',
 
             // src/applications/people/typeahead/PhabricatorViewerDatasource.php:22
             'Use the current viewing user.' => null,
@@ -37674,16 +37674,16 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/passphrase/controller/PassphraseCredentialViewController.php:181
             // src/applications/people/controller/PhabricatorPeopleLdapController.php:172
             // src/applications/people/controller/PhabricatorPeopleNewController.php:148
-            'Username' => null,
+            'Username' => '用户名',
 
             // src/applications/auth/provider/PhabricatorLDAPAuthProvider.php:213
             'Username Attribute' => null,
 
             // src/applications/people/controller/PhabricatorPeopleNewController.php:113
-            'Username and email must be unique.' => null,
+            'Username and email must be unique.' => '用户名和电子邮件地址都必须唯一',
 
             // src/applications/auth/provider/PhabricatorLDAPAuthProvider.php:169
-            'Username and password are required!' => null,
+            'Username and password are required!' => '必须填写用户名和密码！',
 
             // src/applications/config/option/PhabricatorPHPMailerConfigOptions.php:54
             'Username for SMTP.' => null,
@@ -37695,31 +37695,31 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/auth/controller/PhabricatorAuthRegisterController.php:212
             // src/applications/passphrase/editor/PassphraseCredentialTransactionEditor.php:189
             // src/applications/people/controller/PhabricatorPeopleNewController.php:58
-            'Username is required.' => null,
+            'Username is required.' => '必须填写用户名',
 
             // src/applications/auth/provider/PhabricatorPasswordAuthProvider.php:230
-            'Username or Email' => '用户名或电子邮件地址',
+            'Username or Email' => '用户名 或 电子邮件地址',
 
             // src/applications/auth/provider/PhabricatorPasswordAuthProvider.php:218
             // src/applications/auth/provider/PhabricatorLDAPAuthProvider.php:105
-            'Username or password are incorrect.' => null,
+            'Username or password are incorrect.' => '用户名或密码错误。',
 
             // src/applications/conduit/parametertype/ConduitUserParameterType.php:34
             'Username.' => null,
 
             // src/applications/auth/provider/PhabricatorPasswordAuthProvider.php:8
-            'Username/Password' => null,
+            'Username/Password' => '用户名/密码',
 
             // src/applications/people/query/PhabricatorPeopleSearchEngine.php:23
             'Usernames' => null,
 
             // src/applications/people/storage/PhabricatorUser.php:699
-            'Usernames must contain only numbers, letters, period, underscore and hyphen, and can not end with a period. They must have no more than %d characters.' => null,
+            'Usernames must contain only numbers, letters, period, underscore and hyphen, and can not end with a period. They must have no more than %d characters.' => '用户名只能包含 阿拉伯数字、英文字母、英文句号（点）、下划线和短横，且不能以点结尾，同时长度不能超过 %d 个字符。',
 
             // src/applications/phrequent/query/PhrequentSearchEngine.php:68
             // src/applications/people/query/PhabricatorPeopleSearchEngine.php:7
             // src/applications/people/query/PhabricatorPeopleLogSearchEngine.php:119
-            'Users' => null,
+            'Users' => '用户',
 
             // src/applications/owners/editor/PhabricatorOwnersPackageEditEngine.php:95
             'Users and projects which own the package.' => null,
@@ -37971,7 +37971,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Verified, Current' => null,
 
             // src/applications/settings/panel/PhabricatorEmailAddressesSettingsPanel.php:70
-            'Verify' => null,
+            'Verify' => '验证',
 
             // src/applications/auth/controller/PhabricatorEmailVerificationController.php:65
             // src/applications/auth/engine/PhabricatorAuthInviteEngine.php:176
@@ -38316,16 +38316,16 @@ final class I18n_zh_CN extends PhutilTranslation {
             'WORKBOARD' => null,
 
             // src/applications/auth/controller/PhabricatorAuthNeedsApprovalController.php:34
-            'Wait For Approval' => null,
+            'Wait For Approval' => '等待审核',
 
             // src/applications/harbormaster/customfield/HarbormasterBuildStepCoreCustomField.php:42
             'Wait For Message' => null,
 
             // src/applications/auth/controller/PhabricatorAuthNeedsApprovalController.php:29
-            'Wait Patiently' => null,
+            'Wait Patiently' => '耐心等待',
 
             // src/applications/auth/controller/PhabricatorAuthNeedsApprovalController.php:27
-            'Wait for Approval' => null,
+            'Wait for Approval' => '等待审核',
 
             // src/applications/harbormaster/step/HarbormasterWaitForPreviousBuildStepImplementation.php:7
             'Wait for Previous Commits to Build' => null,
@@ -39932,7 +39932,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'You must choose a name for this repository.' => null,
 
             // src/applications/auth/controller/PhabricatorAuthRegisterController.php:226
-            'You must choose a password.' => null,
+            'You must choose a password.' => '必须设置密码',
 
             // src/applications/phortune/controller/PhortuneCartCheckoutController.php:77
             'You must choose a payment method.' => null,
@@ -40309,10 +40309,10 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Your account (%s) is disabled, so you can not interact with Phabricator over email.' => null,
 
             // src/applications/auth/controller/PhabricatorAuthNeedsApprovalController.php:22
-            'Your account has been created, but needs to be approved by an administrator. You\'ll receive an email once your account is approved.' => null,
+            'Your account has been created, but needs to be approved by an administrator. You\'ll receive an email once your account is approved.' => '您的帐号已创建，但需要等待管理员审核通过后才能使用。审核通过后您将收到一封电子邮件。',
 
             // src/applications/auth/controller/PhabricatorDisabledUserController.php:22
-            'Your account has been disabled.' => null,
+            'Your account has been disabled.' => '您的帐号已被禁用。',
 
             // src/applications/settings/panel/PhabricatorExternalAccountsSettingsPanel.php:108
             'Your account is linked with all available providers.' => null,
@@ -40423,20 +40423,20 @@ final class I18n_zh_CN extends PhutilTranslation {
             '[Phabricator] %s has invited you to join Phabricator' => null,
 
             // src/applications/people/storage/PhabricatorUserEmail.php:195
-            '[Phabricator] Email Verification' => null,
+            '[Phabricator] Email Verification' => '「Phabricator」邮箱验证',
 
             // src/applications/auth/controller/PhabricatorEmailLoginController.php:107
-            '[Phabricator] Password Reset' => null,
+            '[Phabricator] Password Reset' => '「Phabricator」密码重置',
 
             // src/applications/people/storage/PhabricatorUserEmail.php:234
             // src/applications/people/storage/PhabricatorUserEmail.php:266
-            '[Phabricator] Primary Address Changed' => null,
+            '[Phabricator] Primary Address Changed' => '「Phabricator」主邮件地址已更改',
 
             // src/applications/people/storage/PhabricatorUser.php:692
-            '[Phabricator] Username Changed' => null,
+            '[Phabricator] Username Changed' => '「Phabricator」用户名已更改',
 
             // src/applications/people/storage/PhabricatorUser.php:643
-            '[Phabricator] Welcome to Phabricator' => null,
+            '[Phabricator] Welcome to Phabricator' => '「Phabricator」欢迎使用',
 
             // src/applications/phurl/editor/PhabricatorPhurlURLEditor.php:197
             '[Phurl]' => null,
