@@ -1,4 +1,5 @@
 <?php
+// vim: syntax=0
 final class I18n_zh_CN extends PhutilTranslation {
     public function getLocaleCode() {
         return 'zh_CN';
@@ -4305,7 +4306,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Accept' => null,
 
             // src/applications/audit/constants/PhabricatorAuditActionConstants.php:19
-            'Accept Commit \342\234\224' => null,
+            'Accept Commit \342\234\224' => '接受提交 \342\234\224',
 
             // src/applications/people/controller/PhabricatorPeopleEmpowerController.php:32
             'Accept Fate' => null,
@@ -4490,7 +4491,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/diffusion/controller/DiffusionCommitController.php:665
             // src/applications/people/view/PhabricatorUserLogView.php:76
             // src/applications/differential/view/DifferentialAddCommentView.php:81
-            'Action' => null,
+            'Action' => '操作',
 
             // src/applications/repository/storage/PhabricatorRepository.php:844
             'Action "%s" is not a valid repository URI action.' => null,
@@ -4861,7 +4862,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/slowvote/controller/PhabricatorSlowvotePollController.php:143
             // src/applications/slowvote/controller/PhabricatorSlowvotePollController.php:154
             // src/applications/differential/view/DifferentialAddCommentView.php:164
-            'Add Comment' => null,
+            'Add Comment' => '评论',
 
             // src/applications/passphrase/view/PassphraseCredentialControl.php:80
             'Add Credential' => null,
@@ -5356,7 +5357,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Aged Merlot' => null,
 
             // src/applications/legalpad/controller/LegalpadDocumentSignController.php:304
-            'Agree and Sign Document' => null,
+            'Agree and Sign Document' => '同意并签署该文件',
 
             // src/applications/legalpad/application/PhabricatorLegalpadApplication.php:14
             'Agreements and Signatures' => null,
@@ -5583,7 +5584,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'All Revisions' => null,
 
             // src/applications/conpherence/query/ConpherenceThreadSearchEngine.php:65
-            'All Rooms' => null,
+            'All Rooms' => '所有会议室',
 
             // src/applications/project/__tests__/PhabricatorProjectCoreTestCase.php:788
             'All Scan' => null,
@@ -9315,7 +9316,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/help/controller/PhabricatorHelpKeyboardShortcutController.php:64
             // src/aphront/handler/PhabricatorDefaultRequestExceptionHandler.php:68
             // src/aphront/handler/PhabricatorPolicyRequestExceptionHandler.php:85
-            'Close' => null,
+            'Close' => '关闭',
 
             // src/applications/audit/constants/PhabricatorAuditActionConstants.php:21
             'Close Audit' => null,
@@ -9626,10 +9627,10 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/releeph/controller/request/ReleephRequestViewController.php:75
             // src/applications/differential/view/DifferentialAddCommentView.php:109
             // src/applications/differential/constants/DifferentialAction.php:124
-            'Comment' => null,
+            'Comment' => '评论',
 
             // src/view/phui/PHUITimelineEventView.php:306
-            'Comment Actions' => null,
+            'Comment Actions' => '评论操作',
 
             // src/applications/transactions/controller/PhabricatorApplicationTransactionCommentHistoryController.php:72
             'Comment History' => null,
@@ -9661,7 +9662,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/transactions/engineextension/PhabricatorTransactionsFulltextEngineExtension.php:9
             // src/applications/diffusion/controller/DiffusionCommitController.php:689
             // src/applications/differential/controller/DifferentialRevisionEditController.php:148
-            'Comments' => null,
+            'Comments' => '评论',
 
             // src/applications/transactions/storage/PhabricatorApplicationTransactionComment.php:147
             'Comments are visible to users who can see the object which was commented on. Comments can be edited by their authors.' => null,
@@ -10968,7 +10969,7 @@ final class I18n_zh_CN extends PhutilTranslation {
 
             // src/applications/conpherence/controller/ConpherenceNewRoomController.php:86
             // src/applications/conpherence/controller/ConpherenceRoomListController.php:36
-            'Create Room' => null,
+            'Create Room' => '创建会议室',
 
             // src/applications/herald/controller/HeraldNewController.php:207
             'Create Rule' => null,
@@ -11089,13 +11090,13 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/conpherence/view/ConpherenceDurableColumnView.php:433
             // src/applications/conpherence/view/ConpherenceThreadListView.php:128
             // src/applications/conpherence/view/ConpherenceLayoutView.php:155
-            'Create a Room' => null,
+            'Create a Room' => '创建会议室',
 
             // src/applications/spaces/query/PhabricatorSpacesNamespaceSearchEngine.php:104
             'Create a Space' => null,
 
             // src/applications/maniphest/query/ManiphestTaskSearchEngine.php:391
-            'Create a Task' => null,
+            'Create a Task' => '创建任务',
 
             // src/applications/people/controller/PhabricatorPeopleCreateController.php:35
             'Create a bot/script user account, to automate interactions with other systems. These users can not use the web interface, but can use the API.' => null,
@@ -11871,7 +11872,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Deadlocked' => null,
 
             // src/applications/legalpad/controller/LegalpadDocumentManageController.php:185
-            'Debate Legislation' => null,
+            'Debate Legislation' => '讨论法规',
 
             // src/aphront/response/AphrontRedirectResponse.php:57
             'Debug' => null,
@@ -17122,7 +17123,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Hunk has unsupported data type "%s"!' => null,
 
             // src/applications/legalpad/controller/LegalpadDocumentSignController.php:430
-            'I agree to the terms laid forth above.' => null,
+            'I agree to the terms laid forth above.' => '我同意以上列出的所有条款。',
 
             // src/applications/auth/view/PhabricatorAuthSSHKeyTableView.php:82
             // src/applications/harbormaster/controller/HarbormasterBuildViewController.php:575
@@ -18479,7 +18480,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Join Project' => null,
 
             // src/applications/conpherence/view/ConpherenceThreadListView.php:121
-            'Join a Room' => null,
+            'Join a Room' => '进入会议室',
 
             // src/applications/project/__tests__/PhabricatorProjectCoreTestCase.php:698
             'Join allowed with edit permission.' => null,
@@ -18510,7 +18511,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Joined Before' => null,
 
             // src/applications/conpherence/query/ConpherenceThreadSearchEngine.php:62
-            'Joined Rooms' => null,
+            'Joined Rooms' => '所在会议室',
 
             // src/applications/project/__tests__/PhabricatorProjectCoreTestCase.php:648
             'Joining an already-joined project is a no-op.' => null,
@@ -18985,7 +18986,7 @@ final class I18n_zh_CN extends PhutilTranslation {
 
             // src/applications/legalpad/application/PhabricatorLegalpadApplication.php:10
             // src/applications/legalpad/config/PhabricatorLegalpadConfigOptions.php:7
-            'Legalpad' => null,
+            'Legalpad' => '法律文件',
 
             // src/applications/legalpad/phid/PhabricatorLegalpadDocumentPHIDType.php:8
             'Legalpad Document' => null,
@@ -19349,7 +19350,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/infrastructure/diff/view/PHUIDiffTableOfContentsItemView.php:233
             // src/view/page/menu/PhabricatorMainMenuView.php:433
             // src/view/page/menu/PhabricatorMainMenuView.php:511
-            'Loading...' => null,
+            'Loading...' => '载入中……',
 
             // src/applications/diffusion/controller/DiffusionRepositoryEditStorageController.php:34
             // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:616
@@ -19456,7 +19457,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/auth/engine/PhabricatorAuthInviteEngine.php:91
             // src/applications/auth/engine/PhabricatorAuthInviteEngine.php:101
             // src/applications/auth/engine/PhabricatorAuthInviteEngine.php:112
-            'Log In' => null,
+            'Log In' => '登入',
 
             // src/applications/legalpad/controller/LegalpadDocumentSignController.php:434
             // src/applications/auth/extension/PhabricatorAuthMainMenuBarExtension.php:40
@@ -19464,7 +19465,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/auth/engine/PhabricatorAuthInviteEngine.php:141
             // src/applications/auth/engine/PhabricatorAuthInviteEngine.php:157
             // src/applications/auth/engine/PhabricatorAuthInviteEngine.php:178
-            'Log Out' => null,
+            'Log Out' => '登出',
 
             // src/applications/spaces/controller/PhabricatorSpacesNoAccessController.php:32
             'Log in, or ask someone to create a public space which logged out users are permitted to access.' => null,
@@ -22585,7 +22586,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Not Defaultable' => null,
 
             // src/infrastructure/diff/view/PHUIDiffInlineCommentDetailView.php:346
-            'Not Done' => null,
+            'Not Done' => '待办',
 
             // src/applications/herald/controller/HeraldNewController.php:56
             'Not Editable' => null,
@@ -23536,7 +23537,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Other Methods' => null,
 
             // src/applications/conpherence/controller/ConpherenceNewRoomController.php:102
-            'Other Participants' => null,
+            'Other Participants' => '其他与会者',
 
             // src/applications/policy/constants/PhabricatorPolicyType.php:38
             'Other Policies' => null,
@@ -25092,7 +25093,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/legalpad/controller/LegalpadDocumentSignController.php:268
             // src/applications/legalpad/controller/LegalpadDocumentEditController.php:180
             // src/applications/transactions/editor/PhabricatorEditEngineConfigurationEditEngine.php:102
-            'Preamble' => null,
+            'Preamble' => '前言',
 
             // src/applications/almanac/editor/AlmanacDeviceEditor.php:237
             'Precomputed interface PHIDs must be of type AlmanacInterfacePHIDType.' => null,
@@ -26127,10 +26128,10 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Rainbow Info' => null,
 
             // src/applications/audit/constants/PhabricatorAuditActionConstants.php:18
-            'Raise Concern \342\234\230' => null,
+            'Raise Concern \342\234\230' => '提出质疑 \342\234\230',
 
             // src/applications/audit/storage/PhabricatorAuditTransaction.php:91
-            'Raised Concern' => null,
+            'Raised Concern' => '提出质疑',
 
             // src/applications/maniphest/storage/ManiphestTransaction.php:320
             'Raised Priority' => null,
@@ -28391,7 +28392,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Room Actions' => null,
 
             // src/applications/conpherence/policyrule/ConpherenceThreadMembersPolicyRule.php:11
-            'Room Participants' => null,
+            'Room Participants' => '与会者',
 
             // src/applications/conpherence/conduit/ConpherenceUpdateThreadConduitAPIMethod.php:34
             'Room does not exist or logged in user can not see it.' => null,
@@ -29084,7 +29085,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Seen' => null,
 
             // src/applications/typeahead/controller/PhabricatorTypeaheadModularDatasourceController.php:162
-            'Select' => null,
+            'Select' => '选择',
 
             // src/applications/diffusion/controller/DiffusionRepositoryEditBranchesController.php:120
             'Select %s, %s, and %s.' => null,
@@ -30161,7 +30162,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Side Navigation' => null,
 
             // src/applications/legalpad/controller/LegalpadDocumentSignController.php:442
-            'Sign Document' => null,
+            'Sign Document' => '签署该文件',
 
             // src/applications/legalpad/controller/LegalpadDocumentSignatureVerificationController.php:34
             'Signature Already Verified' => null,
@@ -31379,7 +31380,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/ponder/controller/PonderAnswerEditController.php:88
             // src/applications/differential/view/DifferentialAddCommentView.php:114
             // src/view/form/control/AphrontFormTextWithSubmitControl.php:52
-            'Submit' => null,
+            'Submit' => '提交',
 
             // src/applications/nuance/source/NuancePhabricatorFormSourceDefinition.php:94
             'Submit Complaint' => null,
@@ -39069,7 +39070,7 @@ final class I18n_zh_CN extends PhutilTranslation {
 
             // src/applications/conpherence/view/ConpherenceDurableColumnView.php:425
             // src/applications/conpherence/view/ConpherenceLayoutView.php:147
-            'You are not in any rooms yet.' => null,
+            'You are not in any rooms yet.' => '您不在任何会议室中。',
 
             // src/applications/releeph/conduit/work/ReleephWorkNextRequestConduitAPIMethod.php:37
             'You are not listed as a pusher for the Releeph project!' => null,
@@ -39831,7 +39832,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'You have not initialized the database yet. You must initialize the database before you can adjust schemata. Run `%s` to initialize the database.' => null,
 
             // src/applications/legalpad/controller/LegalpadDocumentSignController.php:81
-            'You have not signed this document yet.' => null,
+            'You have not signed this document yet.' => '您还没有签署该文件。',
 
             // src/applications/metamta/receiver/PhabricatorMailReceiver.php:75
             'You have not verified the email address for your account (%s). You must verify your email address before you can interact with Phabricator over email.' => null,
