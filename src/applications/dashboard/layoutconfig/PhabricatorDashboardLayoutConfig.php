@@ -56,7 +56,7 @@ final class PhabricatorDashboardLayoutConfig extends Phobject {
           1,
           array());
         $panel_location_grid[$column] = $new_panel_columns;
-        break;
+        //break;    // FIXME: this is a dirty fix.
       }
     }
     $this->setPanelLocations($panel_location_grid);
