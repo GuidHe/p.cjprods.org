@@ -6437,7 +6437,7 @@ final class I18n_zh_CN extends PhutilTranslation {
 
             // src/applications/project/controller/PhabricatorProjectManageController.php:115
             // src/applications/project/controller/PhabricatorProjectArchiveController.php:55
-            'Archive Project' => null,
+            'Archive Project' => '尘封该项目',
 
             // src/applications/herald/controller/HeraldDisableController.php:49
             // src/applications/herald/controller/HeraldRuleViewController.php:92
@@ -6483,7 +6483,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/phame/controller/blog/PhameBlogViewController.php:37
             // src/applications/phame/controller/blog/PhameBlogManageController.php:24
             // src/applications/phame/query/PhameBlogSearchEngine.php:35
-            'Archived' => null,
+            'Archived' => '已尘封',
 
             // src/applications/phame/query/PhameBlogSearchEngine.php:47
             'Archived Blogs' => null,
@@ -13104,7 +13104,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/legalpad/controller/LegalpadDocumentSignatureVerificationController.php:69
             // src/applications/legalpad/query/LegalpadDocumentSignatureSearchEngine.php:246
             // src/applications/search/view/PhabricatorSearchResultView.php:32
-            'Document' => null,
+            'Document' => '文档',
 
             // src/applications/legalpad/controller/LegalpadDocumentEditController.php:189
             'Document Body' => null,
@@ -13116,7 +13116,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Document Fields' => null,
 
             // src/applications/phriction/controller/PhrictionDocumentController.php:429
-            'Document Hierarchy' => null,
+            'Document Hierarchy' => '文档结构',
 
             // src/applications/phriction/controller/PhrictionHistoryController.php:150
             // src/applications/phriction/controller/PhrictionHistoryController.php:167
