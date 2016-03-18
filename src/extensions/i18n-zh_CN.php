@@ -4800,7 +4800,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Add "Re:" Prefix' => null,
 
             // src/applications/transactions/view/PhabricatorApplicationTransactionCommentView.php:272
-            'Add Action...' => null,
+            'Add Action...' => '请选择操作…',
 
             // src/applications/maniphest/controller/ManiphestBatchEditController.php:180
             'Add Another Action' => null,
@@ -6638,7 +6638,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Asked by %s on %s.' => null,
 
             // src/applications/maniphest/editor/ManiphestEditEngine.php:127
-            'Assign / Claim' => null,
+            'Assign / Claim' => '认领 / 指派',
 
             // src/applications/maniphest/command/ManiphestAssignEmailCommand.php:15
             'Assign a task to a specific user.' => null,
@@ -8800,7 +8800,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Change Primary Address' => null,
 
             // src/applications/maniphest/editor/ManiphestEditEngine.php:151
-            'Change Priority' => null,
+            'Change Priority' => '更改优先级',
 
             // src/applications/project/engineextension/PhabricatorProjectsEditEngineExtension.php:52
             'Change Project Tags' => null,
@@ -8812,13 +8812,13 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Change Settings' => null,
 
             // src/applications/maniphest/editor/ManiphestEditEngine.php:139
-            'Change Status' => null,
+            'Change Status' => '更新状态',
 
             // src/applications/maniphest/config/PhabricatorManiphestConfigOptions.php:268
             'Change Story Points' => null,
 
             // src/applications/subscriptions/engineextension/PhabricatorSubscriptionsEditEngineExtension.php:47
-            'Change Subscribers' => null,
+            'Change Subscribers' => '修改订阅者',
 
             // src/applications/differential/view/DifferentialChangesetListView.php:145
             'Change Text Encoding...' => null,
@@ -27884,7 +27884,7 @@ final class I18n_zh_CN extends PhutilTranslation {
 
             // src/applications/ponder/constants/PonderQuestionStatus.php:32
             // src/applications/maniphest/config/PhabricatorManiphestConfigOptions.php:76
-            'Resolved' => null,
+            'Resolved' => '已解决',
 
             // src/applications/config/controller/PhabricatorConfigIssueViewController.php:26
             'Resolved Issue' => null,
