@@ -134,12 +134,12 @@ final class PhabricatorMentionRemarkupRule extends PhutilRemarkupRule {
                 font-weight: bold;
                 padding: 0 4px;',
             ),
-            '@'.$user->getUserName());
+            '@'.$user->getUserName().' ('.$user->getRealName().')');
         } else {
           $tag = id(new PHUITagView())
             ->setType(PHUITagView::TYPE_PERSON)
             ->setPHID($user->getPHID())
-            ->setName('@'.$user->getUserName())
+            ->setName('@'.$user->getUserName().' ('.$user->getRealName().')')
             ->setHref($user_href);
 
           if ($user_has_no_permission) {
