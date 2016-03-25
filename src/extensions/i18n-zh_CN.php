@@ -6814,7 +6814,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Attempting to use a panel in a way that requires an implementation, but the panel implementation ("%s") is unknown to Phabricator.' => null,
 
             // src/applications/calendar/query/PhabricatorCalendarEventSearchEngine.php:296
-            'Attending: %s' => null,
+            'Attending: %s' => '参与者：%s',
 
             // src/applications/drydock/controller/DrydockLeaseViewController.php:145
             // src/applications/drydock/controller/DrydockResourceViewController.php:137
@@ -8537,7 +8537,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/calendar/controller/PhabricatorCalendarEventCancelController.php:108
             // src/applications/calendar/controller/PhabricatorCalendarEventCancelController.php:112
             // src/applications/calendar/controller/PhabricatorCalendarEventViewController.php:222
-            'Cancel Event' => null,
+            'Cancel Event' => '取消事件',
 
             // src/applications/calendar/controller/PhabricatorCalendarEventCancelController.php:96
             // src/applications/calendar/controller/PhabricatorCalendarEventCancelController.php:100
@@ -11910,7 +11910,7 @@ final class I18n_zh_CN extends PhutilTranslation {
 
             // src/applications/calendar/controller/PhabricatorCalendarEventJoinController.php:78
             // src/applications/calendar/controller/PhabricatorCalendarEventViewController.php:189
-            'Decline Event' => null,
+            'Decline Event' => '推辞事件',
 
             // src/applications/drydock/controller/DrydockAuthorizationAuthorizeController.php:73
             'Decline this authorization? The object will not be able to lease or allocate resources created by this blueprint.' => null,
@@ -13509,7 +13509,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Duration' => null,
 
             // src/applications/calendar/query/PhabricatorCalendarEventSearchEngine.php:306
-            'Duration: %s' => null,
+            'Duration: %s' => '时长：%s',
 
             // src/applications/files/builtin/PhabricatorFilesComposeIconBuiltinFile.php:191
             'Dust Detector' => null,
@@ -14745,7 +14745,7 @@ final class I18n_zh_CN extends PhutilTranslation {
 
             // src/applications/calendar/controller/PhabricatorCalendarEventViewController.php:268
             // src/applications/calendar/controller/PhabricatorCalendarEventViewController.php:277
-            'Ends' => null,
+            'Ends' => '结束',
 
             // src/applications/slowvote/view/SlowvoteEmbedView.php:133
             'Engage in Deliberations' => null,
@@ -17037,7 +17037,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/console/plugin/DarkConsoleRequestPlugin.php:58
             // src/applications/multimeter/controller/MultimeterSampleController.php:209
             // src/applications/differential/customfield/DifferentialHostField.php:11
-            'Host' => null,
+            'Host' => '主办',
 
             // src/applications/drydock/blueprint/DrydockAlmanacServiceHostBlueprintImplementation.php:105
             'Host (%s)' => null,
@@ -18471,7 +18471,7 @@ final class I18n_zh_CN extends PhutilTranslation {
 
             // src/applications/calendar/controller/PhabricatorCalendarEventJoinController.php:74
             // src/applications/calendar/controller/PhabricatorCalendarEventViewController.php:196
-            'Join Event' => null,
+            'Join Event' => '参与事件',
 
             // src/applications/policy/editor/PhabricatorPolicyEditEngineExtension.php:64
             'Join Policy' => null,
@@ -30967,7 +30967,7 @@ final class I18n_zh_CN extends PhutilTranslation {
 
             // src/applications/calendar/controller/PhabricatorCalendarEventViewController.php:265
             // src/applications/calendar/controller/PhabricatorCalendarEventViewController.php:273
-            'Starts' => null,
+            'Starts' => '开始',
 
             // src/applications/console/plugin/DarkConsoleStartupPlugin.php:6
             'Startup' => null,
