@@ -5266,7 +5266,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Adopt today!' => null,
 
             // src/applications/policy/constants/PhabricatorPolicyType.php:33
-            'Advanced' => null,
+            'Advanced' => '高级',
 
             // src/applications/project/controller/PhabricatorProjectBoardViewController.php:46
             // src/applications/project/controller/PhabricatorProjectBoardViewController.php:95
@@ -7375,7 +7375,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Basic Example' => null,
 
             // src/applications/policy/constants/PhabricatorPolicyType.php:27
-            'Basic Policies' => null,
+            'Basic Policies' => '基本策略',
 
             // src/applications/uiexample/examples/PHUIFeedStoryExample.php:140
             'Basic Story' => null,
@@ -10886,7 +10886,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Create New Revision' => null,
 
             // src/applications/maniphest/editor/ManiphestEditEngine.php:33
-            'Create New Task' => null,
+            'Create New Task' => '创建新任务',
 
             // src/applications/people/controller/PhabricatorPeopleListController.php:39
             // src/applications/people/controller/PhabricatorPeopleCreateController.php:24
@@ -11501,7 +11501,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Custom Policy' => null,
 
             // src/view/form/control/AphrontFormPolicyControl.php:212
-            'Custom Policy...' => null,
+            'Custom Policy...' => '自定义策略…',
 
             // src/applications/project/config/PhabricatorProjectConfigOptions.php:86
             'Custom Projects fields.' => null,
@@ -19316,7 +19316,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Live logging has already started for this log.' => null,
 
             // src/applications/macro/controller/PhabricatorMacroMemeDialogController.php:71
-            'Llama Diorama' => null,
+            'Llama Diorama' => '汪',
 
             // src/applications/differential/view/DifferentialChangesetListView.php:142
             'Load Changes' => null,
@@ -20188,7 +20188,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Members and Watchers' => null,
 
             // src/applications/policy/constants/PhabricatorPolicyType.php:35
-            'Members of Project...' => null,
+            'Members of Project...' => '项目成员…',
 
             // src/applications/project/storage/PhabricatorProject.php:160
             'Members of a project can always view it.' => null,
@@ -22970,7 +22970,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Object PHID' => null,
 
             // src/applications/policy/constants/PhabricatorPolicyType.php:29
-            'Object Policies' => null,
+            'Object Policies' => '对象策略',
 
             // src/applications/herald/query/HeraldRuleSearchEngine.php:190
             'Object Rule' => null,
@@ -23545,7 +23545,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Other Policies' => null,
 
             // src/view/form/control/AphrontFormPolicyControl.php:178
-            'Other Project...' => null,
+            'Other Project...' => '其他项目…',
 
             // src/applications/config/controller/PhabricatorConfigIssueListController.php:47
             'Other Setup Issues' => null,
@@ -24983,7 +24983,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:127
             // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:655
             // src/applications/meta/controller/PhabricatorApplicationDetailViewController.php:119
-            'Policies' => null,
+            'Policies' => '策略',
 
             // src/applications/policy/application/PhabricatorPolicyApplication.php:6
             // src/applications/policy/phid/PhabricatorPolicyPHIDTypePolicy.php:8
@@ -31777,7 +31777,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Task 3' => null,
 
             // src/applications/maniphest/policyrule/ManiphestTaskAuthorPolicyRule.php:11
-            'Task Author' => null,
+            'Task Author' => '任务作者',
 
             // src/applications/maniphest/__tests__/ManiphestTaskTestCase.php:98
             'Task Block %d' => null,
@@ -37592,7 +37592,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'User PHID.' => null,
 
             // src/applications/policy/constants/PhabricatorPolicyType.php:31
-            'User Policies' => null,
+            'User Policies' => '用户策略',
 
             // src/applications/policy/__tests__/PhabricatorPolicyTestCase.php:54
             'User Policy' => null,
@@ -40695,7 +40695,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'matches:' => null,
 
             // src/applications/project/policyrule/PhabricatorProjectMembersPolicyRule.php:8
-            'members of project' => null,
+            'members of project' => '项目成员',
 
             // src/applications/project/policyrule/PhabricatorProjectsPolicyRule.php:9
             'members of projects' => null,
