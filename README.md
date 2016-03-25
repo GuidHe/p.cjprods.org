@@ -3,6 +3,7 @@
 - Defaulting to Simplified Chinese UI
 - Force ISO-8601 date format
 - Force 24-hour time format
+- Always show full name of people
 
 # Original README
 
