@@ -60,8 +60,8 @@ final class PHUICalendarDayView extends AphrontView {
 
     foreach ($hours as $hour) {
       $js_hours[] = array(
-        'hour' => $hour->format('G'),
-        'hour_meridian' => $hour->format('g A'),
+        'hour' => $hour->format('H:00'),
+        'hour_meridian' => $hour->format('H:00'),
       );
     }
 
@@ -314,7 +314,7 @@ final class PHUICalendarDayView extends AphrontView {
       } else if ($box_start_time == $tomorrow_time) {
         $title = pht('Tomorrow');
       } else {
-        $title = $box_start_time->format('l');
+        $title = pht($box_start_time->format('l'));
       }
 
       $sidebar_day_boxes[] = array(
@@ -363,7 +363,7 @@ final class PHUICalendarDayView extends AphrontView {
     }
 
     $display_day = $this->getDateTime();
-    $header_text = $display_day->format('l, F j, Y');
+    $header_text = $display_day->format('Y-m-d') . ' [' . pht($display_day->format('l')) . ']';
 
     $header = id(new PHUIHeaderView())
       ->setHeader($header_text);
