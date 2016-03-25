@@ -43,7 +43,7 @@ function phabricator_datetime($epoch, $user) {
   return phabricator_format_local_time(
     $epoch,
     $user,
-    'Y-m-d ·· H:i');
+    'Y-m-d · H:i');
 }
 
 /**
