@@ -35,7 +35,7 @@ function phabricator_time($epoch, $user) {
   return phabricator_format_local_time(
     $epoch,
     $user,
-    $user->getPreference($time_key));
+    'H:i');
 }
 
 function phabricator_datetime($epoch, $user) {
@@ -43,9 +43,7 @@ function phabricator_datetime($epoch, $user) {
   return phabricator_format_local_time(
     $epoch,
     $user,
-    pht('%s, %s',
-      phutil_date_format($epoch),
-      $user->getPreference($time_key)));
+    'Y-m-d ·· H:i');
 }
 
 /**
