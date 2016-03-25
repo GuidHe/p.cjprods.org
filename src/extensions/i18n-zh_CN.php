@@ -643,7 +643,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             '%s added a comment to %s.' => null,
 
             // src/applications/transactions/storage/PhabricatorApplicationTransaction.php:732
-            '%s added a comment.' => null,
+            '%s added a comment.' => '%s 添加了一条评论。',
 
             // src/applications/pholio/storage/PholioTransaction.php:270
             '%s added an inline comment to %s.' => null,
@@ -1019,7 +1019,7 @@ final class I18n_zh_CN extends PhutilTranslation {
 
             // src/applications/phriction/storage/PhrictionTransaction.php:187
             // src/applications/maniphest/storage/ManiphestTransaction.php:431
-            '%s changed the title from "%s" to "%s".' => null,
+            '%s changed the title from "%s" to "%s".' => '%s 把标题“%s”改成了“%s”。',
 
             // src/applications/passphrase/storage/PassphraseCredentialTransaction.php:75
             '%s changed the username for this credential from "%s" to "%s".' => null,
@@ -13799,7 +13799,7 @@ final class I18n_zh_CN extends PhutilTranslation {
 
             // src/applications/transactions/controller/PhabricatorApplicationTransactionCommentEditController.php:62
             // src/view/phui/PHUITimelineEventView.php:576
-            'Edit Comment' => null,
+            'Edit Comment' => '编辑评论',
 
             // src/applications/diffusion/controller/DiffusionCommitController.php:909
             'Edit Commit' => null,
@@ -13855,7 +13855,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Edit Differential Revision' => null,
 
             // src/applications/differential/event/DifferentialActionMenuEventListener.php:43
-            'Edit Differential Revisions' => '关联差异修订',
+            'Edit Differential Revisions' => '关联代码修订',
 
             // src/applications/diffusion/controller/DiffusionCommitEditController.php:21
             'Edit Diffusion Commit' => null,
@@ -27091,7 +27091,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/transactions/controller/PhabricatorApplicationTransactionCommentRemoveController.php:54
             // src/applications/transactions/controller/PhabricatorApplicationTransactionCommentRemoveController.php:67
             // src/view/phui/PHUITimelineEventView.php:639
-            'Remove Comment' => null,
+            'Remove Comment' => '删除评论',
 
             // src/applications/settings/panel/PhabricatorMultiFactorSettingsPanel.php:317
             'Remove Factor' => null,
@@ -33383,7 +33383,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'This comment was made on a file with the same name, but in an older diff.' => null,
 
             // src/applications/transactions/view/PhabricatorApplicationTransactionView.php:307
-            'This comment was removed by %s.' => null,
+            'This comment was removed by %s.' => '这条评论已被 %s 删除。',
 
             // src/applications/differential/controller/DifferentialRevisionCloseDetailsController.php:97
             'This commit and the active diff of %s had the same %s hash (%s) so we linked this commit to %s.' => null,
@@ -38192,7 +38192,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'View Push Logs' => null,
 
             // src/view/phui/PHUITimelineEventView.php:610
-            'View Raw' => null,
+            'View Raw' => '查看源代码',
 
             // src/applications/paste/controller/PhabricatorPasteViewController.php:163
             // src/applications/diffusion/controller/DiffusionBrowseController.php:856
