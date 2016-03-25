@@ -1,3 +1,11 @@
+# Flavored Phabricator
+
+- Defaulting to Simplified Chinese UI
+- Force ISO-8601 date format
+- Force 24-hour time format
+
+# Original README
+
 **Phabricator** is a collection of web applications which help software companies build better software.
 
 Phabricator includes applications for:
