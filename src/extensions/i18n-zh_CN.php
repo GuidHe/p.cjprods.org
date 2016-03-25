@@ -1058,7 +1058,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             '%s claimed %s.' => null,
 
             // src/applications/maniphest/storage/ManiphestTransaction.php:546
-            '%s claimed this task.' => null,
+            '%s claimed this task.' => '%s 认领了本任务。',
 
             // src/infrastructure/edges/type/PhabricatorEdgeType.php:20
             '%s class "%s" has an invalid %s property. Edge constants must be positive integers.' => null,
@@ -1359,7 +1359,7 @@ final class I18n_zh_CN extends PhutilTranslation {
 
             // src/applications/maniphest/storage/ManiphestTransaction.php:421
             // src/applications/maniphest/storage/ManiphestTransaction.php:427
-            '%s created this task.' => null,
+            '%s created this task.' => '%s 创建了本任务。',
 
             // src/applications/phlux/storage/PhluxTransaction.php:26
             '%s created this variable.' => null,
@@ -1751,7 +1751,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             '%s edited the start date of this event.' => null,
 
             // src/applications/maniphest/storage/ManiphestTransaction.php:438
-            '%s edited the task description.' => null,
+            '%s edited the task description.' => '%s 编辑了任务描述。',
 
             // src/applications/ponder/storage/PonderQuestionTransaction.php:239
             '%s edited the title of %s (was "%s")' => null,
@@ -2045,7 +2045,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             '%s marked this request as manually %s' => null,
 
             // src/applications/transactions/edges/PhabricatorObjectMentionedByObjectEdgeType.php:22
-            '%s mentioned this in %s.' => null,
+            '%s mentioned this in %s.' => '%s 在 %s 提及了本任务。',
 
             // src/applications/maniphest/storage/ManiphestTransaction.php:908
             '%s merged %s task(s) %s into %s.' => null,
@@ -5460,7 +5460,7 @@ final class I18n_zh_CN extends PhutilTranslation {
 
             // src/applications/calendar/controller/PhabricatorCalendarEventEditController.php:385
             // src/applications/calendar/controller/PhabricatorCalendarEventEditController.php:439
-            'All Day Event' => null,
+            'All Day Event' => '全天',
 
             // src/applications/almanac/query/AlmanacDeviceSearchEngine.php:51
             'All Devices' => null,
@@ -5479,7 +5479,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'All Engineering' => null,
 
             // src/applications/calendar/query/PhabricatorCalendarEventSearchEngine.php:207
-            'All Events' => null,
+            'All Events' => '所有事件',
 
             // src/applications/transactions/query/PhabricatorEditEngineConfigurationSearchEngine.php:79
             'All Forms' => null,
@@ -5515,7 +5515,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'All Methods' => null,
 
             // src/applications/pholio/query/PholioMockSearchEngine.php:56
-            'All Mocks' => null,
+            'All Mocks' => '所有草图',
 
             // src/applications/almanac/query/AlmanacNamespaceSearchEngine.php:43
             'All Namespaces' => null,
@@ -7014,6 +7014,8 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/audit/query/PhabricatorCommitSearchEngine.php:90
             'Authored Commits' => null,
 
+            'Authored By' => '作者',
+
             // src/infrastructure/daemon/workers/query/PhabricatorWorkerBulkJobSearchEngine.php:45
             'Authored Jobs' => null,
 
@@ -7130,7 +7132,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/subscriptions/controller/PhabricatorSubscriptionsEditController.php:45
             // src/applications/subscriptions/herald/PhabricatorSubscriptionsHeraldAction.php:145
             // src/applications/subscriptions/events/PhabricatorSubscriptionsUIEventListener.php:43
-            'Automatically Subscribed' => null,
+            'Automatically Subscribed' => '自动订阅',
 
             // src/applications/config/option/PhabricatorDeveloperConfigOptions.php:106
             'Automatically profile some percentage of pages.' => null,
@@ -8275,13 +8277,13 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/people/controller/PhabricatorPeopleCalendarController.php:92
             // src/applications/people/controller/PhabricatorPeopleController.php:19
             // src/applications/people/engine/PhabricatorPeopleProfilePanelEngine.php:42
-            'Calendar' => null,
+            'Calendar' => '日历',
 
             // src/applications/calendar/application/PhabricatorCalendarApplication.php:80
-            'Calendar Event' => null,
+            'Calendar Event' => '日历事件',
 
             // src/applications/calendar/query/PhabricatorCalendarEventSearchEngine.php:11
-            'Calendar Events' => null,
+            'Calendar Events' => '日历事件',
 
             // src/applications/calendar/application/PhabricatorCalendarApplication.php:70
             'Calendar User Guide' => null,
@@ -10654,7 +10656,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/slowvote/controller/PhabricatorSlowvoteEditController.php:219
             // src/applications/nuance/controller/NuanceQueueEditController.php:79
             // src/view/layout/PHUIApplicationMenuView.php:91
-            'Create' => null,
+            'Create' => '创建',
 
             // src/applications/auth/provider/PhabricatorJIRAAuthProvider.php:275
             'Create **Issue Link** to the Revision, as an "implemented in" relationship.' => null,
@@ -10752,7 +10754,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/calendar/controller/PhabricatorCalendarEventEditController.php:72
             // src/applications/calendar/controller/PhabricatorCalendarController.php:12
             // src/applications/calendar/controller/PhabricatorCalendarController.php:25
-            'Create Event' => null,
+            'Create Event' => '创建事件',
 
             // src/applications/flag/controller/PhabricatorFlagEditController.php:81
             'Create Flag' => null,
@@ -10823,7 +10825,7 @@ final class I18n_zh_CN extends PhutilTranslation {
 
             // src/applications/pholio/controller/PholioController.php:15
             // src/applications/pholio/controller/PholioMockEditController.php:34
-            'Create Mock' => null,
+            'Create Mock' => '创建草图',
 
             // src/applications/almanac/editor/AlmanacNamespaceEditEngine.php:37
             // src/applications/almanac/editor/AlmanacNamespaceEditEngine.php:41
@@ -10944,18 +10946,18 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Create Provider' => null,
 
             // src/applications/calendar/controller/PhabricatorCalendarController.php:16
-            'Create Public Event' => null,
+            'Create Public Event' => '创建公共事件',
 
             // src/applications/releeph/controller/request/ReleephRequestEditController.php:282
             // src/applications/releeph/controller/request/ReleephRequestEditController.php:283
-            'Create Pull Request' => null,
+            'Create Pull Request' => '创建合并请求',
 
             // src/applications/nuance/controller/NuanceQueueEditController.php:78
             // src/applications/nuance/controller/NuanceQueueListController.php:39
             'Create Queue' => null,
 
             // src/applications/calendar/controller/PhabricatorCalendarController.php:20
-            'Create Recurring Event' => null,
+            'Create Recurring Event' => '创建周期性事件',
 
             // src/applications/releeph/controller/product/ReleephProductCreateController.php:92
             'Create Release Product' => null,
@@ -11009,13 +11011,13 @@ final class I18n_zh_CN extends PhutilTranslation {
 
             // src/applications/uiexample/examples/PHUIHovercardUIExample.php:50
             // src/applications/maniphest/controller/ManiphestTaskDetailController.php:179
-            'Create Subtask' => null,
+            'Create Subtask' => '创建子任务',
 
             // src/applications/maniphest/editor/ManiphestEditEngine.php:45
             'Create Task' => '创建任务',
 
             // src/applications/project/controller/PhabricatorProjectBoardViewController.php:802
-            'Create Task...' => null,
+            'Create Task...' => '创建任务…',
 
             // src/applications/oauthserver/controller/client/PhabricatorOAuthClientViewController.php:97
             'Create Test Authorization' => null,
@@ -11835,7 +11837,7 @@ final class I18n_zh_CN extends PhutilTranslation {
 
             // src/applications/calendar/query/PhabricatorCalendarEventSearchEngine.php:72
             // src/applications/calendar/query/PhabricatorCalendarEventSearchEngine.php:205
-            'Day View' => null,
+            'Day View' => '当日',
 
             // src/view/phui/calendar/PHUICalendarDayView.php:240
             'Day is out of query range' => null,
@@ -13361,7 +13363,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Drag and drop fields to reorder them.' => null,
 
             // src/applications/pholio/controller/PholioMockEditController.php:273
-            'Drag and drop images here to add them to the mock.' => null,
+            'Drag and drop images here to add them to the mock.' => '拖放图片到这儿',
 
             // src/applications/search/engine/PhabricatorProfilePanelEngine.php:677
             'Drag tabs to reorder menu' => null,
@@ -13754,7 +13756,7 @@ final class I18n_zh_CN extends PhutilTranslation {
 
             // src/applications/search/controller/PhabricatorSearchAttachController.php:243
             // src/applications/maniphest/controller/ManiphestTaskDetailController.php:187
-            'Edit Blocking Tasks' => null,
+            'Edit Blocking Tasks' => '关联阻塞任务',
 
             // src/applications/phame/controller/blog/PhameBlogManageController.php:146
             'Edit Blog' => null,
@@ -13853,7 +13855,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Edit Differential Revision' => null,
 
             // src/applications/differential/event/DifferentialActionMenuEventListener.php:43
-            'Edit Differential Revisions' => null,
+            'Edit Differential Revisions' => '关联差异修订',
 
             // src/applications/diffusion/controller/DiffusionCommitEditController.php:21
             'Edit Diffusion Commit' => null,
@@ -14018,7 +14020,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Edit Payment Provider %d %s' => null,
 
             // src/applications/pholio/event/PholioActionMenuEventListener.php:43
-            'Edit Pholio Mocks' => null,
+            'Edit Pholio Mocks' => '关联草图',
 
             // src/applications/phriction/controller/PhrictionEditController.php:180
             'Edit Phriction Document' => '编辑文档',
@@ -14721,7 +14723,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/calendar/controller/PhabricatorCalendarEventEditController.php:402
             // src/applications/calendar/controller/PhabricatorCalendarEventEditController.php:455
             // src/applications/files/controller/PhabricatorFileInfoController.php:349
-            'End' => null,
+            'End' => '结束',
 
             // src/applications/countdown/controller/PhabricatorCountdownEditController.php:148
             'End Date' => null,
@@ -16256,7 +16258,7 @@ final class I18n_zh_CN extends PhutilTranslation {
 
             // src/applications/settings/panel/PhabricatorDateTimeSettingsPanel.php:119
             // src/view/phui/calendar/PHUICalendarMonthView.php:342
-            'Friday' => null,
+            'Friday' => '周五',
 
             // src/applications/files/builtin/PhabricatorFilesComposeIconBuiltinFile.php:145
             'Friendly Fruit' => null,
@@ -18295,7 +18297,7 @@ final class I18n_zh_CN extends PhutilTranslation {
 
             // src/applications/calendar/controller/PhabricatorCalendarEventEditController.php:496
             // src/applications/calendar/controller/PhabricatorCalendarEventViewController.php:355
-            'Invitees' => null,
+            'Invitees' => '邀请',
 
             // src/applications/people/controller/PhabricatorPeopleInviteController.php:9
             'Invites' => null,
@@ -20284,7 +20286,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Merge Duplicate Tasks' => null,
 
             // src/applications/maniphest/controller/ManiphestTaskDetailController.php:151
-            'Merge Duplicates In' => null,
+            'Merge Duplicates In' => '并入重复任务',
 
             // src/applications/files/management/PhabricatorFilesManagementCompactWorkflow.php:11
             'Merge identical files to share the same storage. In some cases, this can repair files with missing data.' => null,
@@ -20582,7 +20584,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/settings/panel/PhabricatorDateTimeSettingsPanel.php:115
             // src/applications/uiexample/examples/PHUIObjectItemListExample.php:66
             // src/view/phui/calendar/PHUICalendarMonthView.php:338
-            'Monday' => null,
+            'Monday' => '周一',
 
             // src/applications/transactions/editengine/PhabricatorEditEngine.php:582
             'Monogram "%s" does not identify a valid object.' => null,
@@ -20604,7 +20606,7 @@ final class I18n_zh_CN extends PhutilTranslation {
 
             // src/applications/calendar/query/PhabricatorCalendarEventSearchEngine.php:71
             // src/applications/calendar/query/PhabricatorCalendarEventSearchEngine.php:204
-            'Month View' => null,
+            'Month View' => '月份',
 
             // src/view/phui/calendar/PHUICalendarMonthView.php:467
             'Month is out of query range' => null,
@@ -21091,7 +21093,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/uiexample/examples/PHUIInfoPanelExample.php:85
             // src/applications/uiexample/examples/PHUIInfoPanelExample.php:94
             // src/applications/maniphest/config/PhabricatorManiphestConfigOptions.php:32
-            'Needs Triage' => null,
+            'Needs Triage' => '待裁定',
 
             // src/applications/releeph/field/specification/ReleephSeverityFieldSpecification.php:45
             'Needs merging and fixing right now.' => null,
@@ -23296,7 +23298,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Open Mock' => null,
 
             // src/applications/pholio/query/PholioMockSearchEngine.php:55
-            'Open Mocks' => null,
+            'Open Mocks' => '新开草图',
 
             // src/applications/pholio/controller/PholioMockArchiveController.php:49
             'Open Pholio Mock' => null,
@@ -23319,7 +23321,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/project/controller/PhabricatorProjectBoardViewController.php:590
             // src/applications/maniphest/controller/ManiphestReportController.php:26
             // src/applications/maniphest/query/ManiphestTaskSearchEngine.php:241
-            'Open Tasks' => '新任务',
+            'Open Tasks' => '新开任务',
 
             // src/applications/maniphest/controller/ManiphestReportController.php:469
             'Open Tasks by Project and Priority (%s)' => null,
@@ -24716,18 +24718,18 @@ final class I18n_zh_CN extends PhutilTranslation {
 
             // src/applications/pholio/application/PhabricatorPholioApplication.php:6
             // src/applications/pholio/config/PhabricatorPholioConfigOptions.php:7
-            'Pholio' => null,
+            'Pholio' => '草图',
 
             // src/applications/pholio/application/PhabricatorPholioApplication.php:66
             // src/applications/pholio/phid/PholioMockPHIDType.php:8
-            'Pholio Mock' => null,
+            'Pholio Mock' => '草图',
 
             // src/applications/pholio/herald/HeraldPholioMockAdapter.php:36
             // src/applications/pholio/query/PholioMockSearchEngine.php:6
             // src/applications/pholio/lipsum/PhabricatorPholioMockTestDataGenerator.php:7
             // src/applications/pholio/editor/PholioMockEditor.php:12
             // src/applications/maniphest/controller/ManiphestTaskDetailController.php:262
-            'Pholio Mocks' => null,
+            'Pholio Mocks' => '草图',
 
             // src/applications/metamta/contentsource/PhabricatorContentSource.php:80
             // src/applications/phortune/application/PhabricatorPhortuneApplication.php:6
@@ -26683,7 +26685,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Recurrence of Event' => null,
 
             // src/applications/calendar/controller/PhabricatorCalendarEventEditController.php:345
-            'Recurring Event' => null,
+            'Recurring Event' => '周期性事件',
 
             // src/applications/calendar/controller/PhabricatorCalendarEventEditController.php:369
             // src/applications/calendar/controller/PhabricatorCalendarEventEditController.php:431
@@ -28237,7 +28239,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Review Code' => '检阅代码',
 
             // src/applications/pholio/application/PhabricatorPholioApplication.php:14
-            'Review Mocks and Design' => null,
+            'Review Mocks and Design' => '画面太美，我不敢看',
 
             // src/applications/feed/application/PhabricatorFeedApplication.php:14
             'Review Recent Activity' => '检阅近期活动',
@@ -28676,7 +28678,7 @@ final class I18n_zh_CN extends PhutilTranslation {
 
             // src/applications/settings/panel/PhabricatorDateTimeSettingsPanel.php:120
             // src/view/phui/calendar/PHUICalendarMonthView.php:343
-            'Saturday' => null,
+            'Saturday' => '周六',
 
             // src/applications/settings/panel/PhabricatorEmailAddressesSettingsPanel.php:268
             // src/applications/settings/panel/PhabricatorMultiFactorSettingsPanel.php:270
@@ -29792,7 +29794,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Show Copies/Branches' => null,
 
             // src/applications/drydock/view/DrydockRepositoryOperationStatusView.php:154
-            'Show Details' => null,
+            'Show Details' => '查看细节',
 
             // src/applications/differential/view/DifferentialRevisionUpdateHistoryView.php:293
             'Show Diff' => null,
@@ -30872,7 +30874,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/calendar/controller/PhabricatorCalendarEventEditController.php:392
             // src/applications/calendar/controller/PhabricatorCalendarEventEditController.php:449
             // src/applications/console/plugin/DarkConsoleServicesPlugin.php:284
-            'Start' => null,
+            'Start' => '开始',
 
             // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:749
             'Start Import Now' => null,
@@ -31537,7 +31539,7 @@ final class I18n_zh_CN extends PhutilTranslation {
 
             // src/applications/settings/panel/PhabricatorDateTimeSettingsPanel.php:114
             // src/view/phui/calendar/PHUICalendarMonthView.php:337
-            'Sunday' => null,
+            'Sunday' => '周日',
 
             // src/applications/badges/icon/PhabricatorBadgesIconSet.php:14
             'Superstar' => null,
@@ -34809,7 +34811,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/settings/panel/PhabricatorDateTimeSettingsPanel.php:118
             // src/applications/uiexample/examples/PHUIObjectItemListExample.php:78
             // src/view/phui/calendar/PHUICalendarMonthView.php:341
-            'Thursday' => null,
+            'Thursday' => '周四',
 
             // src/applications/differential/customfield/DifferentialRevisionIDField.php:22
             'Ties commits to revisions and provides a permanent link between them.' => null,
@@ -35106,7 +35108,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Tokens: %s' => null,
 
             // src/view/phui/calendar/PHUICalendarDayView.php:315
-            'Tomorrow' => null,
+            'Tomorrow' => '明天',
 
             // src/applications/ponder/controller/PonderQuestionEditController.php:58
             'Too Long' => null,
@@ -35472,7 +35474,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/settings/panel/PhabricatorDateTimeSettingsPanel.php:116
             // src/applications/uiexample/examples/PHUIObjectItemListExample.php:70
             // src/view/phui/calendar/PHUICalendarMonthView.php:339
-            'Tuesday' => null,
+            'Tuesday' => '周二',
 
             // src/applications/people/controller/PhabricatorPeopleDeleteController.php:70
             'Turn Back' => null,
@@ -37058,7 +37060,7 @@ final class I18n_zh_CN extends PhutilTranslation {
 
             // src/applications/calendar/application/PhabricatorCalendarApplication.php:10
             // src/applications/calendar/query/PhabricatorCalendarEventSearchEngine.php:206
-            'Upcoming Events' => null,
+            'Upcoming Events' => '将要发生的事件',
 
             // src/applications/daemon/controller/PhabricatorDaemonConsoleController.php:202
             'Upcoming Triggers' => null,
@@ -38507,7 +38509,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/settings/panel/PhabricatorDateTimeSettingsPanel.php:117
             // src/applications/uiexample/examples/PHUIObjectItemListExample.php:74
             // src/view/phui/calendar/PHUICalendarMonthView.php:340
-            'Wednesday' => null,
+            'Wednesday' => '周三',
 
             // src/applications/settings/panel/PhabricatorDateTimeSettingsPanel.php:91
             'Week Starts On' => null,
@@ -40412,7 +40414,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             '[Badge]' => null,
 
             // src/applications/calendar/editor/PhabricatorCalendarEventEditor.php:377
-            '[Calendar]' => null,
+            '[Calendar]' => '日历',
 
             // src/applications/legalpad/controller/LegalpadDocumentSignController.php:682
             '[Legalpad] Signature Verification' => null,
