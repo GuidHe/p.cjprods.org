@@ -12192,7 +12192,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/phriction/controller/PhrictionDocumentController.php:304
             // src/applications/uiexample/examples/PHUIListExample.php:29
             // src/applications/uiexample/examples/PHUIDocumentExample.php:34
-            'Delete Document' => null,
+            'Delete Document' => '删除文档',
 
             // src/applications/phriction/controller/PhrictionDeleteController.php:53
             'Delete Document?' => null,
@@ -20676,10 +20676,10 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/phriction/controller/PhrictionMoveController.php:111
             // src/applications/uiexample/examples/PHUIListExample.php:23
             // src/applications/uiexample/examples/PHUIDocumentExample.php:28
-            'Move Document' => null,
+            'Move Document' => '移动文档',
 
             // src/applications/phriction/constants/PhrictionChangeType.php:15
-            'Move Here' => null,
+            'Move Here' => '移到这儿',
 
             // src/applications/phame/controller/post/PhamePostMoveController.php:70
             // src/applications/phame/controller/post/PhamePostMoveController.php:72
@@ -33604,10 +33604,10 @@ final class I18n_zh_CN extends PhutilTranslation {
             'This document requires a corporate signatory. You must log in to accept this document on behalf of a company you represent.' => null,
 
             // src/applications/phriction/controller/PhrictionDocumentController.php:185
-            'This document was moved from %s.' => null,
+            'This document was moved from %s.' => '本文档从 %s 移动至此。',
 
             // src/applications/phriction/controller/PhrictionDocumentController.php:190
-            'This document was moved from elsewhere.' => null,
+            'This document was moved from elsewhere.' => '本文档从别处移动至此。',
 
             // src/applications/phurl/controller/PhabricatorPhurlShortURLDefaultController.php:14
             'This domain can only be used to open URLs shortened using the Phurl application. The URL you are trying to access does not have a Phurl URL associated with it.' => null,
@@ -36957,7 +36957,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             'Unsubmitted Comments' => null,
 
             // src/applications/subscriptions/events/PhabricatorSubscriptionsUIEventListener.php:64
-            'Unsubscribe' => null,
+            'Unsubscribe' => '取消订阅',
 
             // src/applications/config/check/PhabricatorBinariesSetupCheck.php:246
             // src/applications/config/check/PhabricatorBinariesSetupCheck.php:247
