@@ -4,7 +4,7 @@ function phabricator_date($epoch, PhabricatorUser $user) {
   return phabricator_format_local_time(
     $epoch,
     $user,
-    phutil_date_format($epoch));
+    'Y-m-d');
 }
 
 function phabricator_relative_date($epoch, $user, $on = false) {
@@ -20,14 +20,14 @@ function phabricator_relative_date($epoch, $user, $on = false) {
   $date = phabricator_date($epoch, $user);
 
   if ($date === $today) {
-    return 'today';
+    return '今天';
   }
 
   if ($date === $yesterday) {
-    return 'yesterday';
+    return '昨天';
   }
 
-  return (($on ? 'on ' : '').$date);
+  return (($on ? '在' : '').$date);
 }
 
 function phabricator_time($epoch, $user) {
