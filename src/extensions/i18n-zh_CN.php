@@ -12645,7 +12645,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/search/profilepanel/PhabricatorProfilePanelIconSet.php:42
             // src/applications/differential/application/PhabricatorDifferentialApplication.php:10
             // src/applications/differential/config/PhabricatorDifferentialConfigOptions.php:7
-            'Differential' => '差异',
+            'Differential' => '补丁',
 
             // src/applications/differential/phid/DifferentialDiffPHIDType.php:8
             'Differential Diff' => null,
