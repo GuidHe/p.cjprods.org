@@ -14254,7 +14254,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/phriction/storage/PhrictionTransaction.php:130
             // src/applications/maniphest/storage/ManiphestTransaction.php:298
             // src/view/phui/PHUITimelineEventView.php:501
-            'Edited' => null,
+            'Edited' => '已修改',
 
             // src/applications/macro/storage/PhabricatorMacroTransaction.php:235
             'Edited Image' => null,
