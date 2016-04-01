@@ -24798,7 +24798,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/phriction/application/PhabricatorPhrictionApplication.php:6
             // src/applications/phriction/config/PhabricatorPhrictionConfigOptions.php:7
             // src/applications/search/profilepanel/PhabricatorProfilePanelIconSet.php:32
-            'Phriction' => '碰撞',
+            'Phriction' => '文档',
 
             // src/applications/phriction/herald/PhrictionDocumentHeraldAdapter.php:37
             // src/applications/phriction/editor/PhrictionTransactionEditor.php:77
