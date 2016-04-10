@@ -10405,7 +10405,7 @@ final class I18n_zh_CN extends PhutilTranslation {
 
             // src/applications/phriction/controller/PhrictionDocumentController.php:474
             // src/applications/diviner/controller/DivinerAtomController.php:229
-            'Contents' => null,
+            'Contents' => '目录',
 
             // src/applications/differential/constants/DifferentialChangeType.php:137
             'Contents Modified' => null,
@@ -22483,7 +22483,7 @@ final class I18n_zh_CN extends PhutilTranslation {
             // src/applications/maniphest/engineextension/ManiphestHovercardEngineExtension.php:36
             // src/applications/maniphest/query/ManiphestTaskSearchEngine.php:290
             // src/infrastructure/util/password/PhabricatorPasswordHasher.php:392
-            'None' => null,
+            'None' => '无',
 
             // src/applications/project/controller/PhabricatorProjectSubprojectsController.php:137
             // src/applications/project/controller/PhabricatorProjectSubprojectsController.php:161
